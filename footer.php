@@ -1,4 +1,5 @@
-   
+<div class="placeholder"></div>
+<div class="page-footer">
 <div class="row">
     <div class="col-md-5">
         <?php echo $footer; ?>
@@ -10,6 +11,7 @@
     Web Theme By Twitter Bootstrap
         </div>
     </div>
+</div>
 </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

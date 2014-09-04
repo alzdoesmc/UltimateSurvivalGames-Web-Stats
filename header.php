@@ -8,6 +8,9 @@
 .placeholder{
         min-height:75px;
     }
+.page-footer{
+        margin-top:50px;
+    }
 </style>
 <script type="text/javascript">
 function search(str)
