@@ -45,7 +45,7 @@ xmlhttp.send();
 		      <span class="icon-bar"></span>
 		      <span class="icon-bar"></span>
 		    </button>
-		    <a class="navbar-brand" href="index.php"><?php echo $servername; ?></a>
+		    <a class="navbar-brand" href="<?php echo $homepageurl; ?>"><?php echo $servername; ?></a>
 		  </div>
 		  <div class="collapse navbar-collapse navbar-nav-1">
 		    <ul class="nav navbar-nav">

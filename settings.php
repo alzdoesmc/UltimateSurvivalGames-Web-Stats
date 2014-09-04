@@ -4,6 +4,8 @@
 
 $servername='My Server'; // The name of your Minecraft Server
 
+$homepageurl='http://alzdoesmc.com/'; // The url to your homepage
+
 $dbhost='localhost'; // Hostname
 
 $dbname='survivalgames'; // Database name
