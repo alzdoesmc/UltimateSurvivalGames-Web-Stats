@@ -5,8 +5,8 @@ error_reporting(0);
 //require_once( '../db_con.php' );
 
 echo '<div class="row"><div class="col-md-5" style="padding-top:25px;"><ul class="nav nav-pills">
-  <li class="active"><a href="index.php">',$leaderboard_button_name,'</a></li>
-  <li><a href="index.php?page=player">',$search_button_name,'</a></li>
+  <li><a href="index.php">',$leaderboard_button_name,'</a></li>
+  <li class="active"><a href="index.php?page=player">',$search_button_name,'</a></li>
 </ul></div><div class="col-md-7" align="right"><h2 class="text-muted">',$survivalgames_stats_title,'</h2></div></div><hr>';
 
 
