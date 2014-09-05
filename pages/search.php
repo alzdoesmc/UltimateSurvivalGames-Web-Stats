@@ -1,7 +1,7 @@
 
 <?php
 error_reporting(0);
-include ( '../db_con.php' );
+include ( '../settings.php' );
 $player = mysql_real_escape_string(addslashes($_GET['player']));
 
 if(strlen($player) < 2){
@@ -42,7 +42,7 @@ echo '</tbody></table>';
 return;
 
 function getRank($rank_search){
-include ( '../db_con.php' );
+include ( '../settings.php' );
 
 $sql_rank = 'SELECT lastname, sum(points) as points FROM '.$dbprefix.'players GROUP BY lastname ORDER BY points desc';
 
